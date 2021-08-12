@@ -118,7 +118,7 @@ class BookController extends Controller
         }
     }
     
-    '''
+    ```
     public function search(Request $request){
         $query=Book::query();
         if ($request->has('q')) {
@@ -128,5 +128,5 @@ class BookController extends Controller
         }
         return view('cms.books.index')->with("searchParam",$query);
     }
-    '''
+    ```
 }
