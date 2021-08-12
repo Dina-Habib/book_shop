@@ -19,7 +19,7 @@
             <div class="input-group input-group-sm" style="width: 150px;">
               <input type="text" name="table_search" class="form-control float-right" placeholder="Search" id="term">
 
-              <a href="{{ route('books.index') }}" class=" mt-1">
+              <a href="{{ route('books.search') }}" class=" mt-1">
               <div class="input-group-append">
                 <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
               </div>
